@@ -27,143 +27,116 @@ body {
     text-decoration: none;
 }
 
-.cabecalho {
-    height: 80px;
-    background-color: #0b0b0b;
+a {
+    text-decoration: none;
+  }
+
+header.design-one {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
-    border-bottom: 1px solid #282828;
-}
+    padding: 30px 5vw;
+    background: #111;
+  
+    & .logo-img {
+        width: 300px;
+    }
+    & > nav.navigation {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+  
+      & > a.navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #beb38a;
+      }
+    }
+  }
 
-.cabecalho .logo {
-    display: flex;
-    gap: 15px;
-}
-
-.cabecalho .menu {
-    display: flex;
-    gap: 30px;
-}
-
-.cabecalho .menu li a {
-    padding: 30px;
-    color: #beb38a;
-    font-weight: bolder;
-    font-size: 15px;
-    font-family: 'Chalet';
-}
-
-.menu li{
-    list-style-type: none;
-}
-
-.cabecalho .menu li a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.logo-img {
-    width: 50%;
-    height: auto;
-    object-fit: contain;
-}
-
-.cabecalho1 {
-    height: 80px;
-    background-color: #0b0b0b;
-    display: flex;
-    justify-content: center; /* Changes from space-between to center */
-    align-items: center;
-    padding: 0 80px;
-    border-bottom: 1px solid #282828;
-}
-
-.cabecalho1 .logo {
-    display: flex;
-    gap: 15px;
-}
-
-.cabecalho1 .menu {
-    display: flex;
-    gap: 30px;
-}
-
-.cabecalho1 .menu li a {
-    padding: 30px;
-    color: #beb38a;
-    font-weight: bolder;
-    font-size: 15px;
-    font-family: 'Chalet';
-}
-
-.cabecalho1 .menu li a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-
-.cabecalho-search {
-    height: 80px;
-    background-color: #0b0b0b;
-    display: flex;
-    justify-content: space-between; /* Changes from space-between to center */
-    align-items: center;
-    padding: 0 80px;
-    border-bottom: 1px solid #282828;
-}
-
-.cabecalho-search .menu {
-    display: flex;
-    gap: 30px;
-}
-
-.cabecalho-search .menu li a {
-    padding: 30px;
-    color: #beb38a;
-    font-weight: bolder;
-    font-size: 15px;
-    font-family: 'Chalet';
-}
-
-.cabecalho-search .search-container {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.cabecalho-search .search-container input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-}
-.cabecalho-search .menu li a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.cabecalho-logo-center {
-    height: 80px;
+.design-two {
     display: flex;
     justify-content: space-between;
+    padding: 10px 5vw;
     align-items: center;
-    padding: 0 80px;
-    background-color: #0b0b0b;
-    border-bottom: 1px solid #282828;
+    background: rgba(0, 0, 0, 0.678);
+  
+    & > .navigation {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+  
+    & > .navigation-content {
+        color: aliceblue;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+    }
+
+    .img-logo2 {
+        width: 300px;
+    }
+    .img--logo2 {
+        width: 80px;
+        border-radius: 8x;
+    }
 }
 
-.cabecalho-logo-center .menu {
+.design-three {
     display: flex;
-    gap: 30px;
-}
+    justify-content: space-between;
+    padding: 2rem 3vw;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .design-three .navigation {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .design-three .navigation .nav-button {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: rgb(156, 156, 156);
+  }
+  .bi {
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+  }
+  .img-logo3 {
+    width: 200px;
+  }
 
-.cabecalho-logo-center .menu li a {
-    padding: 30px;
-    color: #beb38a;
-    font-weight: bolder;
-    font-size: 15px;
-    font-family: 'Chalet';
-}
+  .design-four {
+    background-color: #3b3b3b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.534);
+    padding: 1.5rem 0;
+  
+    & .img-logo4 {
+      height: 120px;
+    }
+  
+    & .navigation {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    & .navigation-content {
+      color: black;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+  }
 
-.cabecalho-logo-center .menu li a:hover {
-    border-bottom: 2px solid #fff;
-}
+
+
+
+
 
