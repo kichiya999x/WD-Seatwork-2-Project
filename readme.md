@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kichiya999x">
-    <img src="https://i.pinimg.com/736x/85/79/85/8579851e4b79283a9777f75632e188af.jpg" alt="Nyebe" width="130" height="100">
+    <img src="https://i.pinimg.com/736x/85/79/85/8579851e4b79283a9777f75632e188af.jpg" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Header and Footer - Seatwork 3</h3>
