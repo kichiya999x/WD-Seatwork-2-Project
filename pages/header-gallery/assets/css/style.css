@@ -136,7 +136,129 @@ header.design-one {
   }
 
 
+/*Animated*/
 
+  header.design-onea {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5vw;
+    background: #111;
+  
+    & .logo-img {
+        width: 300px;
+    }
+    & > nav.navigation {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+  
+      & > a.navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #beb38a;
+        transition: color 0.3s ease-in-out;
+      }
+    & > a.navigation-content:hover {
+        color: #fff;
+    }
+  }
+}
 
+.design-twoa {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5vw;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.678);
+  
+    & > .navigation {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+  
+    & > .navigation-content {
+        color: aliceblue;
+        font-weight: 800;
+        font-size: 1.2rem;
+        transition: color 0.3s ease-in-out;
+    }
+    & > a.navigation-content:hover {
+      color: #af0000;
+      transform: scale(1.1);
+  }
+    }
 
+    .img-logo2 {
+        width: 300px;
+    }
+    .img--logo2 {
+        width: 80px;
+        border-radius: 8x;
+    }
+}
 
+.design-threea {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3vw;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .design-threea .navigation {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .design-threea .navigation .nav-button {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: rgb(156, 156, 156);
+    transition: transform 0.3s ease-in-out;;
+  }
+  .design-threea .navigation .nav-button:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  .bia {
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+  }
+  .img-logo3a {
+    width: 200px;
+  }
+
+  .design-foura {
+    background-color: #3b3b3b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.534);
+    padding: 1.5rem 0;
+  
+    & .img-logo4 {
+      height: 120px;
+    }
+  
+    & .navigation {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    & .navigation-content {
+      color: black;
+      font-weight: 700;
+      font-size: 1.2rem;
+      transition: transform 0.3s ease;;
+    }
+    & .navigation-content:hover {
+      transform: scale(1.1);
+      opacity: 0.7;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      color: #ffffff;
+    }
+  }
