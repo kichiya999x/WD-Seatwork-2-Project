@@ -262,3 +262,49 @@ header.design-one {
       color: #ffffff;
     }
   }
+
+  .site-header {
+    background-color: #333;
+    color: #fff; 
+    padding: 10px 0; 
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+  
+  .site-logo {
+    height: 150px; 
+    width: auto; 
+  }
+  
+  .site-navigation {
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .nav-link {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 25px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; 
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+  }
+
+  .nav-links {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 25px;
+  }
