@@ -7,24 +7,19 @@
   <a href="https://github.com/kichiya999x">
     <img src="https://i.pinimg.com/736x/85/79/85/8579851e4b79283a9777f75632e188af.jpg" alt="" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Header and Footer - Seatwork 3</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   This website is a Header and Footer Display Website with distinct designs using pure HTML and CSS. Include both static and animated versions of the headers and footers. Ensure the website is well-structured, deployed, and the README file is updated accordingly.
 </div>
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
-
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -52,14 +47,14 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
 It's a website that displays distinct header and footer designs using pure HTML and CSS. Both static and animated versions of headers and footers are included.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
+
 - MultiPage Website/Single Page Website
+- Responsive Design
+- Navigation System
+- Accessibility Features
 
 ### Technology
 <!-- TODO: List of Technology Used -->
