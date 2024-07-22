@@ -10,7 +10,7 @@
   <h3 align="center">Header and Footer - Seatwork 3</h3>
 </div>
 <div align="center">
-  This website is a Header and Footer Display Website with distinct designs using pure HTML and CSS. Include both static and animated versions of the headers and footers. Ensure the website is well-structured, deployed, and the README file is updated accordingly.
+  This website is a Header and Footer Display Website with distinct designs using pure HTML and CSS. This includes both static and animated versions of the headers and footers.
 </div>
 
 <br />
@@ -100,4 +100,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
+| Font Awesome | Template designs for stylesheet | https://fontawesome.com/
+| Bootstrap | Provides a collection of syntax for template designs | https://getbootstrap.com/ |
+| Pinterest | Design References | https://ph.pinterest.com/ |
 | Elden Ring Website | I used this as a reference for my website | https://en.bandainamcoent.eu/elden-ring/elden-ring
