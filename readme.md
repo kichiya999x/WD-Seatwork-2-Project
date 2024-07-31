@@ -51,7 +51,7 @@ It's a website that displays distinct header and footer designs using pure HTML 
 
 ### Key Components
 
-- MultiPage Website/Single Page Website
+- MultiPage Website
 - Responsive Design
 - Navigation System
 - Accessibility Features
